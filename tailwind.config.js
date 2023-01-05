@@ -18,10 +18,6 @@ module.exports = {
         green: "#11452c",
         gold: "#cd8e33",
       },
-      // backgroundImage: (theme) => ({
-      //   "hero-pattern":
-      //     "linear-gradient(to right bottom, rgba(17 69 44,0.8),rgb(17 69 44)), url('../atoms/img_7654.jpg')",
-      // }),
     },
   },
   plugins: [],

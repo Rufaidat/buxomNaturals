@@ -1,7 +1,5 @@
 import React from "react";
 import Navbar from "../molecules/Navbar";
-import bg from "../atoms/img_7654.jpg";
-import Image from "next/image";
 import Button from "../atoms/Button";
 
 function Hero() {
