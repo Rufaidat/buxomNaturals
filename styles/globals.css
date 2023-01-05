@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+  @apply list-none  text-white font-bold tracking-wide border-b-gold border-b-[.2px] py-6;
+}
+h1 {
+  @apply font-fancy font-bold text-5xl sm:text-6xl md:text-7xl;
+}
+p {
+  @apply text-gray-900 font-medium mt-2  py-4 sm:leading-loose md:text-xl;
+}
+.gallery-img {
+  @apply w-full h-[8rem] bg-cover bg-center rounded;
+}
