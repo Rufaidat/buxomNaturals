@@ -4,14 +4,16 @@ import img from "../atoms/founder.jpg";
 function Founder() {
   return (
     <div className="h-screen lg:h-content w-full p-6 md:px-10 lg:px-40 md:flex justify-between items-center relative ">
-      <div className="absolute top-0 z-10 right-40">
+      <div className="absolute top-0 z-10 right-6 md:right-40">
         <div className="flex w-auto items-baseline space-x-2">
           <span className="w-16 h-[2px] sm:w-[6rem] md:w-[8rem] lg:w-[9rem] bg-gold"></span>
           <h3 className="text-green -mb-2 text-2xl font-fancy font-bold  ">
             Meet Our
           </h3>
         </div>
-        <h1>Founder.</h1>
+        <h1>
+          Founder <span className="text-gold -ml-3">.</span>
+        </h1>
       </div>
       <div className=" mt-[5rem] mb-4 w-full rounded-full flex items-center md:w-[60%] md:mr-10 ">
         <Image

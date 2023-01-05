@@ -17,7 +17,7 @@ function Navbar() {
         />
         {isOpen ? (
           <div
-            className="w-full h-content absolute bg-green/90 mt-6 left-0"
+            className="w-full h-content absolute  bg-green/90 mt-6 left-0"
             onClick={() => setIsOpen(false)}
           >
             {" "}

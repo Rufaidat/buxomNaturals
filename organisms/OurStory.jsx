@@ -16,7 +16,9 @@ function OurStory() {
           </h3>
           <span className="w-20 h-[2px] sm:w-[10rem] md:w-[13rem] bg-gold"></span>
         </div>
-        <h1>Our Story.</h1>
+        <h1>
+          Our Story <span className="text-gold -ml-3 p-0">.</span>
+        </h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
           atque quos odit deleniti quae aliquid velit officiis, fugit laboriosam

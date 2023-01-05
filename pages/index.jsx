@@ -3,6 +3,7 @@ import Image from "next/image";
 import Founder from "../organisms/Founder";
 import Hero from "../organisms/Hero";
 import OurStory from "../organisms/OurStory";
+import Products from "../organisms/Products";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       </section>
       <section>
         <Founder />
+      </section>
+      <section>
+        <Products />
       </section>
     </div>
   );
