@@ -4,7 +4,7 @@ import Button from "../atoms/Button";
 
 function Hero() {
   return (
-    <div className="bg-[url('../atoms/img_7654.jpg')] bg-cover  bg-center bg-fixed w-full h-screen top-0  flex  ">
+    <div className="bg-[url('../atoms/IMG_7654.jpg')] bg-cover  bg-center bg-fixed w-full h-screen top-0  flex  ">
       <div className="top-0 fixed w-full">
         <Navbar />
       </div>
