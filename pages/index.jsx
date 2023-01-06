@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Founder from "../organisms/Founder";
 import Hero from "../organisms/Hero";
+import Ingredients from "../organisms/Ingredients";
 import OurStory from "../organisms/OurStory";
 import Products from "../organisms/Products";
 
@@ -14,11 +15,14 @@ export default function Home() {
       <section className="pb-20">
         <OurStory />
       </section>
-      <section>
+      <section className="pb-20">
         <Founder />
       </section>
       <section>
         <Products />
+      </section>
+      <section>
+        <Ingredients />
       </section>
     </div>
   );

@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Merriweather Sans", ...defaultTheme.fontFamily.sans],
-        fancy: ["DM Serif Display"],
+        fancy: ["DM Serif Display", "serif"],
       },
       colors: {
         green: "#11452c",
@@ -20,5 +20,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };

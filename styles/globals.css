@@ -14,3 +14,6 @@ p {
 .gallery-img {
   @apply w-full h-[8rem] bg-cover bg-center rounded;
 }
+.swipe {
+  @apply flex flex-row w-[80%] overflow-hidden bg-red-800 h-96;
+}
