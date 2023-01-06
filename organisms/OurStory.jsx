@@ -1,11 +1,5 @@
 import React from "react";
-import bg from "../atoms/img_7654.jpg";
-import Image from "next/image";
-import guy from "../atoms/IMG-20230104-WA0007.jpg";
-import maskGirl from "../atoms/IMG-20230104-WA0009.jpg";
-import smile from "../atoms/IMG-20230104-WA0008.jpg";
-import serum from "../atoms/IMG-20230104-WA0010.jpg";
-import cream from "../atoms/IMG-20230104-WA0014.jpg";
+
 function OurStory() {
   return (
     <div className="h-screen lg:h-content w-full p-6 md:px-10 lg:px-40 lg:flex justify-between items-center ">
