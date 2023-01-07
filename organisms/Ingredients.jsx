@@ -41,8 +41,8 @@ const data = [
 function Ingredients() {
   return (
     <div className="min-h-screen  w-full p-6 md:px-10 lg:px-40 flex flex-col ">
-      <div className="relative mb-10 w-auto h-auto md:mb-20 ">
-        <div className="absolute top-0 z-10 right-0 md:right-0">
+      <div className="relative mb-10 w-auto h-auto md:mb-20 mt-[8rem]">
+        <div className="absolute top-0 right-0 md:right-0">
           <div className="flex w-auto items-baseline space-x-2">
             <span className="w-16 h-[2px] sm:w-[6rem] md:w-[8rem] lg:w-[9rem] bg-gold"></span>
             <h3 className="text-green -mb-2 text-2xl font-fancy font-bold  ">
@@ -50,15 +50,15 @@ function Ingredients() {
             </h3>
           </div>
           <h1>
-            Ingredients <span className="text-gold -ml-3">.</span>
+            Ingredients <span className="text-gold -ml-3">?</span>
           </h1>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-4 ">
+      <div className="flex flex-wrap justify-center items-center gap-4 mt-[5rem]">
         {data.map((item) => (
           <div
             key={item.name}
-            className="flex-col flex mt-4 p-6 py-8 items-center w-80 bg-white  h-[32rem] rounded shadow-lg font-fancy text-center"
+            className="flex-col flex mt-4 p-6 py-8 items-center w-80 bg-white  h-fit sm:h-[35rem] rounded shadow-lg font-fancy text-center"
           >
             <div>
               {" "}
@@ -75,7 +75,6 @@ function Ingredients() {
           </div>
         ))}
       </div>
-      ;
     </div>
   );
 }

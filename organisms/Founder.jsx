@@ -4,7 +4,7 @@ import img from "../atoms/founder.jpg";
 function Founder() {
   return (
     <div className="min-h-screen  w-full p-6 md:px-10 lg:px-40 flex flex-col ">
-      <div className="relative mb-10 w-auto h-auto md:mb-20 ">
+      <div className="relative mb-10 w-auto h-auto md:mb-20 mt-20">
         <div className="absolute top-0 z-10 right-0 md:right-0">
           <div className="flex w-auto items-baseline space-x-2">
             <span className="w-16 h-[2px] sm:w-[6rem] md:w-[8rem] lg:w-[9rem] bg-gold"></span>

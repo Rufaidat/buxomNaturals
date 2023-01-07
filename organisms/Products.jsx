@@ -11,7 +11,7 @@ const data = [
 function Products() {
   return (
     <div className="p-6 h-screen lg:px-40">
-      <div className="flex w-auto items-baseline sm:space-x-3 ">
+      <div className="flex w-auto items-baseline sm:space-x-3 mt-[6rem]">
         <h3 className="text-green -mb-2 text-2xl font-fancy font-bold ml-2 ">
           Our trending
         </h3>

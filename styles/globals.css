@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 li {
-  @apply list-none  text-white font-bold tracking-wide border-b-gold border-b-[.2px] py-6;
+  @apply list-none  font-bold tracking-wide border-b-gold  border-b-[.2px] py-6;
+}
+.md-li {
+  @apply tracking-wider py-0 border-b-0 hover:border-b-gold hover:border-b-2;
 }
 h1 {
-  @apply font-fancy font-bold text-5xl sm:text-6xl md:text-7xl;
+  @apply font-fancy font-bold text-5xl sm:text-6xl md:text-7xl text-gray-900;
 }
 p {
   @apply text-gray-900 font-medium mt-2  py-4 sm:leading-loose md:text-xl;
@@ -14,6 +17,11 @@ p {
 .gallery-img {
   @apply w-full h-[8rem] bg-cover bg-center rounded;
 }
-.swipe {
-  @apply flex flex-row w-[80%] overflow-hidden bg-red-800 h-96;
+
+.s-icons {
+  @apply w-4 h-4;
+}
+.contact-input {
+  @apply outline-none  border-2 border-gold  rounded-sm border-b pl-2 sm:px-6 py-4 
+  placeholder-gold transition-all focus:text-green;
 }

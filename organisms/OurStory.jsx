@@ -3,7 +3,7 @@ import React from "react";
 function OurStory() {
   return (
     <div className="h-screen lg:h-content w-full p-6 md:px-10 lg:px-40 lg:flex justify-between items-center ">
-      <div className="lg:w-[40%] ">
+      <div className="lg:w-[40%] mt-[8rem]">
         <div className="flex w-auto items-baseline space-x-3">
           <h3 className="text-green -mb-2 text-2xl font-fancy font-bold ml-2 ">
             Discover
