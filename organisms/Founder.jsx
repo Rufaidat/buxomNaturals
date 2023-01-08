@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import img from "../atoms/founder.jpg";
+import { motion } from "framer-motion";
 function Founder() {
   return (
     <div className="min-h-screen  w-full p-6 md:px-10 lg:px-40 flex flex-col ">
@@ -17,29 +18,47 @@ function Founder() {
           </h1>
         </div>
       </div>
-      <div className="md:flex justify-between items-center">
-        <div className=" mt-[5rem] mb-4 w-full rounded-full flex items-center md:w-[60%] md:mr-10 ">
-          <Image
-            src={img}
-            alt="founder picture"
-            className="w-80 h-80 rounded-full sm:w-96 sm:h-96 md:w-[20rem] md:h-[25rem] lg:w-[25rem] md:rounded-none md:rounded-tr-[2rem] md:rounded-bl-[2rem] md:mx-0  mx-auto"
-          />
+      <motion.div
+        initial={{ x: -100, opacity: 0, scale: 0.5 }}
+        whileInView={{ x: 0, opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          duration: 0.8,
+        }}
+      >
+        <div className="md:flex justify-between items-center">
+          <motion.div
+            initial={{ x: -100, opacity: 0, scale: 0.5 }}
+            whileInView={{ x: 0, opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 0.8,
+            }}
+          >
+            <div className=" mt-[5rem] mb-4 w-full rounded-full flex items-center md:w-[60%] md:mr-10 ">
+              <Image
+                src={img}
+                alt="founder picture"
+                className="w-80 h-80 rounded-full sm:w-96 sm:h-96 md:w-[20rem] md:h-[25rem] lg:w-[25rem] md:rounded-none md:rounded-tr-[2rem] md:rounded-bl-[2rem] md:mx-0  mx-auto"
+              />
+            </div>
+          </motion.div>
+          <div className="lg:w-[60%] sm:w-[90%]  md:mt-12">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus atque quos odit deleniti quae aliquid velit officiis,
+              fugit laboriosam magnam quaerat quibusdam voluptatum totam
+              pariatur minus iste quia adipisci beatae.
+            </p>
+            <p className="-mt-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus atque quos odit deleniti quae aliquid velit officiis,
+              fugit laboriosam magnam quaerat quibusdam voluptatum totam
+              pariatur minus iste quia adipisci beatae.
+            </p>
+          </div>
         </div>
-        <div className="lg:w-[60%] sm:w-[90%]  md:mt-12">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-            atque quos odit deleniti quae aliquid velit officiis, fugit
-            laboriosam magnam quaerat quibusdam voluptatum totam pariatur minus
-            iste quia adipisci beatae.
-          </p>
-          <p className="-mt-2">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-            atque quos odit deleniti quae aliquid velit officiis, fugit
-            laboriosam magnam quaerat quibusdam voluptatum totam pariatur minus
-            iste quia adipisci beatae.
-          </p>
-        </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

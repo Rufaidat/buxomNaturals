@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Contact from "../organisms/Contact";
+import Footer from "../organisms/Footer";
 import Founder from "../organisms/Founder";
 import Hero from "../organisms/Hero";
 import Ingredients from "../organisms/Ingredients";
@@ -27,6 +28,9 @@ export default function Home() {
       </section>
       <section id="contact">
         <Contact />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );

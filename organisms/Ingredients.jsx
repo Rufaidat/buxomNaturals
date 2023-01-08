@@ -5,6 +5,7 @@ import acid from "../atoms/IMG-20230104-WA0017.jpg";
 import soap from "../atoms/IMG-20230104-WA0019.jpg";
 import ab from "../atoms/IMG-20230104-WA0018.jpg";
 import pod from "../atoms/IMG-20230104-WA0016.jpg";
+import { motion } from "framer-motion";
 const data = [
   {
     img: berry,

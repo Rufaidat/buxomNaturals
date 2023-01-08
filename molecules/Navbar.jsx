@@ -69,12 +69,9 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <div className="hidden lg:flex justify-between w-full items-center">
+      <div className="hidden lg:flex justify-between w-full items-center text-green">
         <Image src={logo} alt="logo" className="w-20 " />
-        <ul
-          style={{ color: `${textcolor}` }}
-          className="flex justify-between space-x-4 text-lg font-fancy items-center "
-        >
+        <ul className="flex justify-between space-x-4 text-lg font-fancy items-center ">
           <Link href="#/">
             <li className="md-li">Home</li>
           </Link>
@@ -96,7 +93,7 @@ function Navbar() {
             <li className="md-li ">Contact</li>
           </Link>
         </ul>
-        <div style={{ color: `${textcolor}` }} className="flex space-x-2 mt-2 ">
+        <div className="flex space-x-2 mt-2 ">
           <Link href="https://wa.me/message/WRJB62LQQZ3WP1">
             <BsWhatsapp className="s-icons" />
           </Link>

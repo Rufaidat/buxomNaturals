@@ -22,6 +22,12 @@ p {
   @apply w-4 h-4;
 }
 .contact-input {
-  @apply outline-none  border-2 border-gold  rounded-sm border-b pl-2 sm:px-6 py-4 
+  @apply outline-none border-b-[0.5px] border-b-gold/60 rounded-sm pl-2 sm:px-6 py-4 
   placeholder-gold transition-all focus:text-green;
+}
+.footer-icon-div {
+  @apply rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 bg-gold;
+}
+.footer-icon {
+  @apply text-white md:w-6 md:h-6;
 }

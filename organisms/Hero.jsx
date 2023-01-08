@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../molecules/Navbar";
 import Button from "../atoms/Button";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (

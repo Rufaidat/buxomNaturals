@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../molecules/Card";
 import product from "../atoms/IMG_7654.jpg";
+import { motion } from "framer-motion";
 const data = [
   {
     img: product,
