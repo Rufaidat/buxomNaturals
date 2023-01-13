@@ -35,4 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+The Live website can viewed at: https://buxom-naturals.vercel.app
+
 Design Inspiration gotten from https://preview.themeforest.net/item/colora-organic-responsive-shopify-theme/full_screen_preview/20317533?_ga=2.159443965.1125285081.1672833747-158517608.1663185892
