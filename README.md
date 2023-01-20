@@ -1,19 +1,18 @@
-##Buxom Naturals Landing page
+**Buxom Naturals Landing page**
 
-##Inspiration
-This is a custom website for Buxom Naturals though some of the design element was influenced by this website https://colora-1.myshopify.com/
-## Getting Started
+## Inspiration
+This is a custom website made for Buxom Naturals though some of the design element was influenced by this website https://colora-1.myshopify.com/
 
 
-##Deployment
+## Deployment Link
 The deployed website can be viewed here https://buxom-naturals.vercel.app
 
-##Technologies Used
-   • Next Js
-   • Tailwind CSS
-   • Framer motion 
+## Technologies Used
+   • Next Js  
+• Tailwind CSS  
+  • Framer motion 
 
-##How to use this project
+## Getting Started 
 
 First, run the development server:
 
