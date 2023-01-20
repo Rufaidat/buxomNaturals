@@ -1,7 +1,7 @@
 **Buxom Naturals Landing page**
 
 ## Inspiration
-This is a custom website made for Buxom Naturals though some of the design element was influenced by this website https://colora-1.myshopify.com/
+This is a custom website made for Buxom Naturals though some of the design decisions was influenced by this website https://colora-1.myshopify.com/
 
 
 ## Deployment Link
