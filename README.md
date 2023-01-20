@@ -1,6 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+##Buxom Naturals Landing page
 
+##Inspiration
+This is a custom website for Buxom Naturals though some of the design element was influenced by this website https://colora-1.myshopify.com/
 ## Getting Started
+
+
+##Deployment
+The deployed website can be viewed here https://buxom-naturals.vercel.app
+
+##Technologies Used
+   • Next Js
+   • Tailwind CSS
+   • Framer motion 
+
+##How to use this project
 
 First, run the development server:
 
@@ -35,6 +48,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-The Live website can viewed at: https://buxom-naturals.vercel.app
 
-Design Inspiration gotten from https://preview.themeforest.net/item/colora-organic-responsive-shopify-theme/full_screen_preview/20317533?_ga=2.159443965.1125285081.1672833747-158517608.1663185892
