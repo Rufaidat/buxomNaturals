@@ -17,10 +17,8 @@ function Hero() {
           Organic <span className="text-gold">!</span>
         </h1>
         <p className=" px-4 md:w-full lg:w-[80%] ">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vero
-          amet esse doloremque quaerat sint alias debitis iste sit, qui
-          explicabo blanditiis. Corrupti consequatur repellat odit odio natus.
-          Ratione, maxime.
+          A Touch Of Nature For A Healthy Skin. OR For a healthy and radiant
+          skin, the natural organic skincare line is the way to go.
         </p>
         <Link href="https://wa.me/c/2347014272586" target="_blank">
           {" "}

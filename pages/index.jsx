@@ -10,7 +10,7 @@ import Products from "../organisms/Products";
 
 export default function Home() {
   return (
-    <div>
+    <div className="scroll-behaviour">
       <section className="mb-8" id="/">
         <Hero />
       </section>

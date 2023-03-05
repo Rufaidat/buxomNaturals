@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 function Card({ item }) {
-  console.log(item);
   return (
     <div>
       {" "}

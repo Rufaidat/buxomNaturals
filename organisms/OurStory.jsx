@@ -13,10 +13,10 @@ function OurStory() {
         </div>
         <h1>Our Story.</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-          atque quos odit deleniti quae aliquid velit officiis, fugit laboriosam
-          magnam quaerat quibusdam voluptatum totam pariatur minus iste quia
-          adipisci beatae.
+          It is an endless list of possibilities for the 100+ skincare
+          enthusiasts who across Nigeria and her borders have achieved their
+          ultimate skin goals by using <strong>BUXOM NATURALS’ </strong>{" "}
+          luxuriously expeditious skincare products.
         </p>
       </div>
       <div className="grid grid-cols-6 gap-2 h-auto lg:h-[26.5rem] border-gold border-dashed border-2 p-2 rounded lg:w-[50%] ">

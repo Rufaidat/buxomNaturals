@@ -26,7 +26,7 @@ function Founder() {
           duration: 0.8,
         }}
       >
-        <div className="md:flex justify-between items-center">
+        <div className="md:flex justify-around items-center">
           <motion.div
             initial={{ x: -100, opacity: 0, scale: 0.5 }}
             whileInView={{ x: 0, opacity: 1, scale: 1 }}
@@ -35,26 +35,31 @@ function Founder() {
               duration: 0.8,
             }}
           >
-            <div className=" mt-[5rem] mb-4 w-full rounded-full flex items-center md:w-[60%] md:mr-10 ">
+            <div className=" mt-[5rem] mb-4 w-full rounded-full flex items-center md:w-[60%] ">
               <Image
                 src={img}
                 alt="founder picture"
-                className="w-80 h-80 rounded-full sm:w-96 sm:h-96 md:w-[20rem] md:h-[25rem] lg:w-[25rem] md:rounded-none md:rounded-tr-[2rem] md:rounded-bl-[2rem] md:mx-0  mx-auto"
+                className="w-80 h-80 rounded-full sm:w-96 sm:h-96 md:w-[40rem] md:h-[25rem] lg:w-[45rem] md:rounded-none md:rounded-tr-[2rem] md:rounded-bl-[2rem] md:mx-0  mx-auto"
               />
             </div>
           </motion.div>
           <div className="lg:w-[60%] sm:w-[90%]  md:mt-12">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Accusamus atque quos odit deleniti quae aliquid velit officiis,
-              fugit laboriosam magnam quaerat quibusdam voluptatum totam
-              pariatur minus iste quia adipisci beatae.
+              She has an impeccably outstanding, open-minded and engaging
+              personality of which many have benefitted as she remains
+              undeterred in her mission to assist both males and females regain
+              confidence in their appearances.
             </p>
             <p className="-mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Accusamus atque quos odit deleniti quae aliquid velit officiis,
-              fugit laboriosam magnam quaerat quibusdam voluptatum totam
-              pariatur minus iste quia adipisci beatae.
+              She has practiced and mastered certified courses in skincare
+              products formulation, tailoring & fashion, customer relationship
+              management, digital marketing and entrepreneurship but to mention
+              a few.
+              <p>
+                {" "}
+                She is also the founder and owner of Buxom Group, Buxom Naturals
+                and Buxom Flair.
+              </p>
             </p>
           </div>
         </div>

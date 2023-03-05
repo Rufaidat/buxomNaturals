@@ -31,3 +31,6 @@ p {
 .footer-icon {
   @apply text-white md:w-6 md:h-6;
 }
+.scroll-behaviour {
+  scroll-behavior: smooth;
+}

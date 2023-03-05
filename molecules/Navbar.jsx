@@ -9,7 +9,6 @@ import Link from "next/link";
 import SideNav from "./SideNav";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [textcolor, setTextColor] = useState("#cd8e33");
   const [color, setColor] = useState(false);
 
   const handleMenu = () => {
